@@ -1,0 +1,8 @@
+<h1>Enter Your Stuffs</h1>
+<br />
+<%= simple_form_for @quiz do |f| %>
+    <%= f.input :name %>
+    <%= f.input :description %>
+    <br/>
+    <%= f.submit 'Submit' %>
+  <% end %>
